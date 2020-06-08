@@ -10,20 +10,20 @@
 分别使用以下四个模型：
 
 #### 1，BaselineOnly
-- （4，4）压缩后做kfold验证RMSE：0.9275, probe的RMSE:1.1231
-- （2，2）压缩后全集作为训练集，probe的RMSE:1.1231
+- （4，4）压缩后做kfold验证RMSE：0.9257, probe的RMSE:0.9862
+- （2，2）压缩后全集作为训练集，probe的RMSE:0.9800
 
 #### 2，FunkSVD
-- （4，4）压缩后做kfold验证RMSE：1.0155, probe的RMSE:1.1231
-- （2，2）压缩后全集作为训练集，probe的RMSE:1.1231
+- （4，4）压缩后做kfold验证RMSE：0.9043, probe的RMSE:1.0928
+- （2，2）压缩后全集作为训练集，probe的RMSE:1.0539
 
 #### 3，biasSVD
-- （4，4）压缩后做kfold验证RMSE：0.8975, probe的RMSE:1.1232
-- （2，2）压缩后全集作为训练集，probe的RMSE:1.1231
+- （4，4）压缩后做kfold验证RMSE：0.8921, probe的RMSE:0.9817
+- （2，2）压缩后全集作为训练集，probe的RMSE:0.9658
 
 #### 4，SVD++
-- （4，4）压缩后做kfold验证RMSE：0.9053, 内存不够，kfold后面会崩溃。
-- （2，2）压缩后全集作为训练集，probe的RMSE:1.1231
+- （4，4）压缩后做kfold验证RMSE：0.9053
+- （2，2）压缩后全集作为训练集，probe的RMSE:
 
 ## 调整超参（太费时间，没来得及做）
 
