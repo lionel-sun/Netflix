@@ -11,19 +11,19 @@
 
 #### 1，BaselineOnly
 - （4，4）压缩后做kfold验证RMSE：0.9275, probe的RMSE:1.1231
-- （，）压缩后训练集RMSE：0., probe的RMSE:
+- （2，2）压缩后全集作为训练集，probe的RMSE:1.1231
 
 #### 2，FunkSVD
 - （4，4）压缩后做kfold验证RMSE：1.0155, probe的RMSE:1.1231
-- （，）压缩后训练集RMSE：0., probe的RMSE:
+- （2，2）压缩后全集作为训练集，probe的RMSE:1.1231
 
 #### 3，biasSVD
 - （4，4）压缩后做kfold验证RMSE：0.8975, probe的RMSE:1.1232
-- （，）压缩后训练集RMSE：0., probe的RMSE:
+- （2，2）压缩后全集作为训练集，probe的RMSE:1.1231
 
 #### 4，SVD++
-- （4，4）压缩后做kfold验证RMSE：0., probe的RMSE:
-- （，）压缩后训练集RMSE：0., probe的RMSE:
+- （4，4）压缩后做kfold验证RMSE：0.9053, 内存不够，kfold后面会崩溃。
+- （2，2）压缩后全集作为训练集，probe的RMSE:1.1231
 
 ## 调整超参（太费时间，没来得及做）
 
