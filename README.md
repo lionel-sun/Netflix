@@ -25,7 +25,7 @@
 - （4，4）压缩后做kfold验证RMSE：0.9053
 - （2，2）压缩后全集作为训练集，probe的RMSE:
 
-## 调整超参（太费时间，没来得及做）
+## 调整超参
 
 [baselineonly参数说明](https://surprise.readthedocs.io/en/stable/prediction_algorithms.html#baseline-estimates-configuration "官方文档说明")
 [SVD参数说明](https://surprise.readthedocs.io/en/stable/matrix_factorization.html#surprise.prediction_algorithms.matrix_factorization.SVD "官方文档说明")
